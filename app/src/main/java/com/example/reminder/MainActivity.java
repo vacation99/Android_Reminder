@@ -110,7 +110,7 @@ public class MainActivity extends AppCompatActivity implements RecyclerViewAdapt
     @Override
     public void onNoteClick(int position) {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setMessage("Выберить действие");
+        builder.setMessage("Выберите действие");
 
         builder.setPositiveButton("Изменить", (dialog, which) -> {
             Intent intent = new Intent(".Edit");
